@@ -14,7 +14,6 @@
 <body>
     <div class="firstPage w-full h-screen">
         <header class="w-full h-[9vh] bg-[#2C4A43] flex items-center px-32 fixed max-xl:px-16 max-lg:h-[10vh] max-sm:px-6">
-            <!-- max-lg -->
             <div class="logo h-full w-1/2 max-lg:w-[95%]">
                 <a href="#" class="flex w-full h-full justify-between items-center">
                     <img src="./images/img19.svg" alt="" class="h-[50%]">
@@ -26,7 +25,7 @@
                     </div>
                 </a>
             </div>
-            <ul class="headerMenu w-1/2 h-full flex justify-evenly items-center max-lg:bg-[#1c332e] max-lg:hidden max-lg:absolute max-lg:top-[10vh] max-lg:left-0 max-lg:w-full max-lg:h-[90vh] max-lg:flex-col max-lg:justify-start max-lg:items-start">
+            <ul class="headerMenu w-1/2 h-full flex justify-evenly items-center max-lg:bg-[#1c332e] max-lg:absolute max-lg:top-[10vh] max-lg:left-0 max-lg:w-full max-lg:h-[0vh] max-lg:opacity-0 max-lg:flex-col max-lg:justify-start max-lg:items-start">
                 <li class="max-lg:my-7 max-lg:w-full max-lg:pl-16 max-sm:pl-6"><a href="#" class="font-bold text-md text-white max-lg:text-lg">Our plans</a></li>
                 <li class="max-lg:my-7 max-lg:w-full max-lg:pl-16 max-sm:pl-6"><a href="#" class="font-bold text-md text-white max-lg:text-lg">Buy soups & shakes</a></li>
                 <li class="max-lg:my-7 max-lg:w-full max-lg:pl-16 max-sm:pl-6"><a href="#" class="font-bold text-md text-white max-lg:text-lg">NHS</a></li>
@@ -39,7 +38,7 @@
                 </li>
             </ul>
             <div class="hamburgerMenu hidden max-lg:w-[5%] h-full justify-end items-center max-sm:w-[20%] max-lg:flex">
-                <i class="fa-solid fa-bars text-white"></i>
+                <i class="fa-solid fa-bars text-white" id="menu"></i>
             </div>
         </header>
         <div class="w-full h-screen pt-[9vh] max-lg:[120vh]">
@@ -397,6 +396,8 @@
             <i>*Name changed for patient privacy</i>
         </p>
     </div>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>

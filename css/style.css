@@ -8,6 +8,13 @@
 header{
     z-index: 9999;
 }
+.headerMenu{
+    transition: all 0.3s;
+}
+.active{
+    height: 90vh;
+    opacity: 1;
+}
 .fpHead h1, .fpHead h1 span, .secondPage, .spHead, .tpHead, .tpCardTop, .foot h1, .fpHead, .spCard h1, .spHead h1, .sevCard h1, .epHead{
     font-family: "DM Serif Display", serif;
 }
@@ -28,12 +35,6 @@ header{
 }
 .tpCard{
     box-shadow: 0px 0px 10px #7f7f7fa4;
-}
-.active .logo{
-    height: 100vh;
-}
-.active{
-    display: flex;
 }
 .fpHead h1{
     font-size: clamp(2.5rem, -1rem + 7vw, 10rem);
